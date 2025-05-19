@@ -21,7 +21,7 @@ function Header() {
                 <SlLocationPin />
               </span>
               <div>
-                <p>Deliverto</p>
+                <p>Deliver to</p>
                 <span>Ethiopia</span>
               </div>
             </div>

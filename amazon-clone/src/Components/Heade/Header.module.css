@@ -22,11 +22,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding:5px;
+  padding:10px;
   gap: 3px;
   font-weight: bold;
+ 
 }
-.delivery_location p , span{
+.delivery_location p , .delivery_location span{
   font-size: 10px;
   color: #fff;
 }
@@ -37,6 +38,7 @@
   border-radius: 10px;
   width: 100%;
   overflow: hidden; 
+  background: #fff;
 
   flex: 1;
 
@@ -62,11 +64,13 @@
 .search svg{
   background-color: #febd69;
   color: #1a1a1a;
-  padding: 7px;
+  padding: 7px ;
+  height: 37px;
 
 }
 .search svg:hover{
   background-color: #febd69;
+  color: #000;
  
 }
 .search:focus-within {
