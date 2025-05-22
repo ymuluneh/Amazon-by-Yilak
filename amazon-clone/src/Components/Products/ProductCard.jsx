@@ -4,12 +4,13 @@ import CurrencyFormat from "../CurrencyFormat/CurrencyFormat";
 import { Button } from "@mui/material";
 import classes from "./products.module.css"
 
+
 function ProductCard({ product }) {
   const { id, image, title, price, rating } = product;
 
   return (
     <div className={classes.Product_card}>
-      <a href={`/product/${id}`}>
+      <a href={`/product/${category}`}>
         <img src={image} alt={title} />
       </a>
       <div>

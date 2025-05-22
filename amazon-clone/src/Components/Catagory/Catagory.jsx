@@ -1,4 +1,4 @@
-// components/Category.jsx
+
 import React from "react";
 import { CategoryInfo } from "./CatagoryInfo";
 import CategoryCard from "./CatagoryCard";

@@ -43,21 +43,21 @@ function Header() {
               </select>
             </a>
 
-            <a href="">
+            <a href="/auth">
               <div>
                 <p>Sign in</p>
                 <span>Account & Lists</span>
               </div>
             </a>
             {/* order */}
-            <a href="">
+            <a href="/orders">
               <div>
                 <p>Returns</p>
                 <span>& Orders</span>
               </div>
             </a>
             {/* cart */}
-            <a href="">
+            <a href="/cart">
               <div className={classes.cart}>
                 <BiCart size={35} />
                 <span>0</span>

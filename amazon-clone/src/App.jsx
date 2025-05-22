@@ -1,16 +1,18 @@
 
 
 import './App.css'
-import Home from './pages/Home/Home'
+
+import Routing from './Routing'
 
 function App() {
   
 
   return (
     <>
-     <Home/>
+      <Routing />
+      
     </>
-  )
+  );
 }
 
 export default App
