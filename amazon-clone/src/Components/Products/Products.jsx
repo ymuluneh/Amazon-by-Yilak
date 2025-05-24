@@ -9,18 +9,17 @@ function Products() {
   useEffect(() => {
     axios
       .get("https://fakestoreapi.com/products")
-      .then((res) => {
-        setProducts(res.data);
-      })
-      .catch((err) => {
-        console.log(err);
+      .then((res)=>{
+        setProducts(res.data)
+      }).catch((err) => {
+        console.log(err)
       });
   }, []);
 
   return (
     <section className={classes.product_container}>
-      {products.map((singleItem, i) => (
-        <ProductCard product={singleItem} key={i} />
+      {products.map((singleItem) => (
+        <ProductCard product={singleItem} key={singleItem.id} renderAdd ={true} />
       ))}
     </section>
   );

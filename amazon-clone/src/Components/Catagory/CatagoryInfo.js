@@ -6,7 +6,7 @@ export const CategoryInfo = [
     price: 22.3,
     description:
       "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, lightweight & soft fabric for breathable and comfortable wearing.",
-    category: "Men's Clothing",
+    category: "men's clothing",
     image:
       "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
   },
@@ -16,7 +16,7 @@ export const CategoryInfo = [
     price: 168,
     description:
       "Satisfaction Guaranteed. Return or exchange any order within 30 days. Designed and sold by Hafeez Center in the United States.",
-    category: "Jewelry",
+    category: "jewelery",
     image: "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
   },
   {
@@ -25,7 +25,7 @@ export const CategoryInfo = [
     price: 109,
     description:
       "Easy upgrade for faster boot up, shutdown, application load and response. Read/write speeds of up to 535MB/s/450MB/s.",
-    category: "Electronics",
+    category: "electronics",
     image: "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
   },
   {
@@ -34,7 +34,7 @@ export const CategoryInfo = [
     price: 9.85,
     description:
       "95% RAYON 5% SPANDEX. Lightweight fabric with great stretch for comfort, ribbed on sleeves and neckline.",
-    category: "Women's Clothing",
+    category: "women's clothing",
     image: "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
   },
 ];
