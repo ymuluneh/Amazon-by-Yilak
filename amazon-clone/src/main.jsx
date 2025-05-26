@@ -5,6 +5,8 @@ import App from './App.jsx'
 import { BrowserRouter } from 'react-router-dom'
 import { DataProvider } from './Components/ContextProvider/DataProvider.jsx'
 import { initialState, reducer } from "./pages/Utilitis/reducer.js"
+import "bootstrap/dist/css/bootstrap.min.css";
+
 
 createRoot(document.getElementById("root")).render(
   <BrowserRouter>

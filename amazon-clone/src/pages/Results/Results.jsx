@@ -4,8 +4,7 @@ import axios from "axios";
 import { productUrl } from "../../Api/endPoint";
 import ProductCard from "../../Components/Catagory/CatagoryCard";
 import Loader from "../../Components/Loader/Loader";
-import  "./result.css"
-// import Classes from "../../Components/Catagory/category.module.css"
+import classes from "./result.module.css"
 
 function Results() {
   const [isLoading, setisLoading]= useState(false)
@@ -35,7 +34,7 @@ function Results() {
       {isLoading ? (
         <Loader />
       ) : (
-        <div className="catagories">
+        <div className={classes.catagories}>
           {results.map((product, i) => (
             <ProductCard key={i} data={product} 
             renderDesc={false }

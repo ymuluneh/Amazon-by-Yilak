@@ -2,6 +2,7 @@ body{
     width: 100%;
 }
 .carouselImg{
+    margin-top: 0px !important;
     position: relative;
 }
 .carouselImg::before{

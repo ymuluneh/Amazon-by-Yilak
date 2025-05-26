@@ -2,8 +2,10 @@
   background-color: #1a1a1a !important;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 10px;
   height: 70px;
+  padding:30px 20px;
 }
 .logo_container {
   display: flex;
@@ -39,6 +41,8 @@
   width: 100%;
   overflow: hidden; 
   background: #fff;
+  max-width: 600px;
+  height: 35px;
 
   flex: 1;
 
@@ -61,11 +65,13 @@
   
 }
 
-.search svg{
+.search svg, .search_icon{
   background-color: #febd69;
   color: #1a1a1a;
   padding: 7px ;
-  height: 37px;
+  height: fit-content;
+
+
 
 }
 .search svg:hover{

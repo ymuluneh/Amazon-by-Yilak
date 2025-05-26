@@ -1,0 +1,15 @@
+.backToTope{
+    background: #485769;
+    text-align: center;
+    color: white;
+    padding: 15px 0;
+}
+
+.backToTope a{
+    text-decoration: none;
+    color: white;
+}
+.backToTope:hover{
+    border: 1px solid #644869;
+
+}

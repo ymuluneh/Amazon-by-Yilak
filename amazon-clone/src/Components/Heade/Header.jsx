@@ -39,7 +39,9 @@ function Header() {
             <option value="">All</option>
           </select>
           <input type="text" placeholder="search product" />
-          <BsSearch size={25} />
+          <div className={classes.search_icon}>
+            <BsSearch size={25} />
+          </div>
         </div>
         {/* right side link */}
         <div className={classes.order_container}>

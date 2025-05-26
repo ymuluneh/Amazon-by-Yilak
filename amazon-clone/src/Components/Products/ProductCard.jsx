@@ -10,6 +10,7 @@ import { Typo } from "../../pages/Utilitis/action.type";
 function ProductCard({ product, flex, renderDesc, renderAdd }) {
   const { id, image, title, price, rating, description } = product;
 
+
   const [{ basket }, dispatch] = useContext(DataContext);
 
   const addToCart = () => {

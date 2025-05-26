@@ -8,7 +8,9 @@ function LowerHeader() {
       <div className={css.lower_header}>
         <ul>
           <li>
-            <IoMdMenu />
+            <p>
+              <IoMdMenu />
+            </p>
             <p>All</p>
           </li>
           <li>Today's Deals</li>

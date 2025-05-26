@@ -1,0 +1,26 @@
+.personalizedInfo{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 0.5px solid gray;
+    border-radius: 10px;
+
+    text-align: center;
+    /* width: 96%; */
+    margin: 0 auto;
+    height: 25vh;
+
+}
+.personalizedInfo button{
+    background-color: #FFCE12;
+    width: 150px;
+    height: 30pxpx;
+    border: none;
+    border-radius: 10px;
+
+}
+.personalizedInfo button:hover{
+    background-color: var(--primary-color);
+}
+

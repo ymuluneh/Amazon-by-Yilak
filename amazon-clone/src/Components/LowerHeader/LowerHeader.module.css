@@ -1,6 +1,10 @@
 .lower_header{
     background-color: #232f3e;
     color: white;
+   
+}
+.lower_header ul{
+    margin-bottom: 0px !important;
 }
 
 .lower_header ul{
@@ -15,8 +19,9 @@
 
 .lower_header ul li:first-child{
     display: flex;
-    gap: 2px;
+    gap: 5px;
     align-items: center ;
+    justify-content: center;
 }
 
 .lower_header ul li:hover{

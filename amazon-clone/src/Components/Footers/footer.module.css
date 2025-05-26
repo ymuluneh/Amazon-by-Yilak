@@ -1,0 +1,152 @@
+.container{
+    background-color: #232F3E;
+    color: white;
+    padding: 25px 0;
+  
+}
+.container div ul li{
+    list-style: none;
+    padding: 5px;
+}
+
+.container div ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.container div ul li a:hover{
+    text-decoration: underline;
+    color: var(--primary-color);
+}
+
+.row{
+    width: 90% !important;
+    margin: 0 auto !important;
+}
+
+/* midle footer styling  */
+
+.midle_container{
+    background-color: #232F3E;
+    width: 100%;
+    border-top: 1px solid gray;
+
+}
+.midle{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    height: 20vh;
+    gap: 10px;
+    padding: 15px 0;
+}
+
+.midle img{
+
+    padding: 7px ;
+    height: 37px;
+  
+  }
+  .midle svg:hover{
+    background-color: #febd69;
+    color: #000;
+   
+  }
+
+  .FaGlobe{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 30%;
+    margin: 0 auto; */
+    border: 1px solid white;
+    
+    
+    
+
+  }
+  .midle a{
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .FaGlobe p{
+    gap: 5px;
+  }
+
+  .logo{
+    padding-right: 70px;
+  }
+
+  .logo img {
+    height: 50px;
+  }
+
+  /* lower footer css */
+
+  /* Footer.css */
+.footer {
+  background-color: #131A22;
+  color: #fff;
+  padding: 2rem 0;
+}
+
+.footer_links .row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 2rem;
+}
+
+.footer_links h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer_links p {
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.footer_copyright {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.legal_links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.legal_links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.legal_links a:hover {
+  text-decoration: underline;
+}
+
+.checkbox_icon {
+  color: #fff;
+  font-size: 1rem;
+  vertical-align: middle;
+  margin-left: 0.5rem;
+}
+ 
+.col a {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+.col a:hover {
+    text-decoration: underline;
+    color: var(--primary-color);
+}
