@@ -2,7 +2,7 @@ import { useEffect, useState, } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
 import { productUrl } from "../../Api/endPoint";
-import ProductCard from "../../Components/Catagory/CatagoryCard";
+import ProductCard from "../../Components/Products/ProductCard";
 import Loader from "../../Components/Loader/Loader";
 import classes from "./result.module.css"
 
@@ -16,7 +16,7 @@ function Results() {
     setisLoading(true)
     axios.get(`${productUrl}/products/category/${categoryName}`)
       .then((res) => {
-      
+      console.log(res.data);
         setisLoading(false);
         setResults(res.data);
       })
@@ -36,7 +36,7 @@ function Results() {
       ) : (
         <div className={classes.catagories}>
           {results.map((product, i) => (
-            <ProductCard key={i} data={product} 
+            <ProductCard key={i} product={product} 
             renderDesc={false }
             renderAdd={true} />
           ))}

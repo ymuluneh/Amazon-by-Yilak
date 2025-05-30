@@ -2,6 +2,7 @@ import { Typo } from "./action.type";
 
 export const initialState = {
   basket: [],
+  user: null,
 };
 
 export const reducer = (state, action) => {
@@ -49,6 +50,18 @@ export const reducer = (state, action) => {
         ...state,
         basket:newBasket
       }
+
+      case Typo.SET_USER_KEY:
+      return {
+        ...state,
+        user: action.user,
+      };
+    case Typo.EMPTY_BASKET:
+      return {
+        ...state,
+        basket: [],
+      };
+      
 
     default:
       return state;

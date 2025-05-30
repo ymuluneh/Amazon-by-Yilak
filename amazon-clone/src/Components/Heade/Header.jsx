@@ -6,9 +6,10 @@ import { BiCart } from "react-icons/bi";
 import LowerHeader from "../LowerHeader/LowerHeader";
 import { DataContext } from "../ContextProvider/DataProvider";
 import { Link } from "react-router-dom";
+import { auth } from "../../pages/Utilitis/firebase";
 
 function Header() {
-  const [{ basket }, dispatch] = useContext(DataContext);
+  const [{user, basket }, dispatch] = useContext(DataContext);
   const totalItem = basket?.reduce((amount,item)=>{
     return item.amount + amount
   },0)
@@ -51,15 +52,24 @@ function Header() {
               <option value="">EN</option>
             </select>
           </Link>
-
-          <Link to="/auth">
+          <Link to={!user && "/auth"}>
             <div>
-              <p>Sign in</p>
-              <span>Account & Lists</span>
+              {user ? (
+                <>
+                  <p>Hello, {user?.email?.split("@")[0]}</p>
+                  <span onClick={() => auth.signOut()}>Sign out</span>
+                </>
+              ) : (
+                <>
+                  <p>Hello, Sign in</p>
+                  <span>Account & list</span>
+                </>
+              )}
             </div>
           </Link>
+          [=]
           {/* order */}
-          <Link to="/orders">
+          <Link to="/payment">
             <div>
               <p>Returns</p>
               <span>& Orders</span>

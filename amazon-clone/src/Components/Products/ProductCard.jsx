@@ -8,6 +8,8 @@ import { DataContext } from "../ContextProvider/DataProvider";
 import { Typo } from "../../pages/Utilitis/action.type";
 
 function ProductCard({ product, flex, renderDesc, renderAdd }) {
+
+ 
   const { id, image, title, price, rating, description } = product;
 
 

@@ -1,0 +1,29 @@
+.order_container {
+  background-color: #efeeee;
+  padding: 30px;
+}
+
+.orders {
+  background-color: #fff;
+  text-align: center;
+
+  padding: 20px;
+}
+
+.orders h2 {
+  font-size: 1.5rem;
+  border-bottom: 1px solid var(--primary-shade);
+  padding: 20px;
+}
+.orders p {
+  font-size: 1.2rem;
+  color: var(--primary-shade);
+  padding: 12px;
+}
+.orders img {
+  width: 100px;
+  
+}
+.orders div{
+    height: auto;
+}

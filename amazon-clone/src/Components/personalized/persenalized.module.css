@@ -24,3 +24,8 @@
     background-color: var(--primary-color);
 }
 
+.personalizedInfo button a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}

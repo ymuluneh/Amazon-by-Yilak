@@ -6,7 +6,20 @@
   gap: 10px;
   height: 70px;
   padding:30px 20px;
+  width: 100%;
 }
+
+.header_container p{
+margin: 0px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+
+}
+
+
+
+
 .logo_container {
   display: flex;
   align-items: center;
